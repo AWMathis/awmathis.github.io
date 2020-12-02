@@ -32,13 +32,13 @@
         bottom: -30px;
         width: 0;
         height: 8px;
-        background-color: $purple;
+        background-color: $highlighterGreen;
         content: '';
         transition: width 0.15s;
       }
 
       &:hover {
-        color: $fadedBlue;
+        color: $highlighterGreen;
 
         &:after {
           width: 100%;

@@ -20,7 +20,7 @@
 
     .project-image {
       width: 80%;
-      position: absolute !important; // overide gatsby-image style
+      position: sticky !important; // overide gatsby-image style
       top: 0;
       left: 0;
 
@@ -34,7 +34,7 @@
       top: -1px;
       right: -1px;
       height: 110%;
-      width: 83%;
+      width: 70%;
       background: url('../images/project-background-white.svg');
       background-size: cover;
 
@@ -45,7 +45,7 @@
 
     .project-content {
       padding: 60px;
-      width: 50%;
+      width: 70%;
       z-index: 2;
 
       @include tablet {
@@ -97,8 +97,8 @@
           }
 
           &.secondary {
-            background: #fff;
-            color: $purple;
+            background: $purple;
+            color: $highlighterGreen;
 
             &:hover {
               background: #fff;

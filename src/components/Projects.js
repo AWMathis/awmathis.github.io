@@ -25,14 +25,6 @@ class ProjectLinks extends React.PureComponent {
     return (
       <div className="project-links">
         <a
-          href={preview}
-          rel="noopener"
-          target="_blank"
-          className="project-link"
-        >
-          Live Demo <FontAwesomeIcon icon="external-link-alt" />
-        </a>
-        <a
           href={github}
           rel="noopener"
           target="_blank"
@@ -51,7 +43,7 @@ class ProjectCard extends React.PureComponent {
 
     return (
       <div className="project-card">
-        <img className="project-image" src={image} />
+        <img className="project-image" src={image}/>
         <div className="project-background" />
         <div className="project-content">
           <h3>{title}</h3>
